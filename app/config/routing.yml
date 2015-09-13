@@ -1,0 +1,7 @@
+deh_front:
+    resource: "@DEHFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
